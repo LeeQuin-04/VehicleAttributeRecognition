@@ -1,31 +1,13 @@
-# =========================
-# DATASET
-# =========================
 
 data/raw/
 data/processed/
-
-
-# =========================
-# TRAINED MODELS
-# =========================
 
 models/
 *.pt
 *.pth
 *.ckpt
 
-
-# =========================
-# OUTPUTS
-# =========================
-
 outputs/
-
-
-# =========================
-# PYTHON
-# =========================
 
 __pycache__/
 *.py[cod]
@@ -34,25 +16,23 @@ __pycache__/
 venv/
 env/
 
-
-# =========================
-# JUPYTER
-# =========================
-
 .ipynb_checkpoints/
-
-
-# =========================
-# IDE
-# =========================
 
 .vscode/
 .idea/
 
 
-# =========================
-# WINDOWS
-# =========================
-
 Thumbs.db
 Desktop.ini
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+test_videos/
+
+# Compressed / Zip files
+*.zip
+*.rar
+*.7z
+*.tar.gz
