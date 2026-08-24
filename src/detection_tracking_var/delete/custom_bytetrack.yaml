@@ -1,0 +1,8 @@
+# custom_bytetrack.yaml
+tracker_type: bytetrack
+track_high_thresh: 0.5 # Ngưỡng tin cậy cho lần khớp đầu tiên
+track_low_thresh: 0.1  # Quan trọng: Cho phép dùng cả các box mờ (khi xe mới lộ diện)
+new_track_thresh: 0.6  # Ngưỡng để tạo ID mới (tránh rác)
+track_buffer: 120      # TĂNG MẠNH: Giữ ID trong 120 frame (khoảng 4-5 giây video) 
+match_thresh: 0.8      # Ngưỡng khớp nối IoU
+fuse_score: True 

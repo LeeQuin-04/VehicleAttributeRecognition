@@ -1,0 +1,19 @@
+# custom_tracker.yaml
+tracker_type: botsort
+
+# Association 
+track_high_thresh: 0.5 
+track_low_thresh: 0.1  
+new_track_thresh: 0.6 
+track_buffer: 150
+match_thresh: 0.5      
+fuse_score: True
+
+# BoT-SORT
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+gmc_method: orb        
+
+# ReID
+with_reid: True
+model: auto
