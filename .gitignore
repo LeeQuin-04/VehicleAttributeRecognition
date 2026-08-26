@@ -1,8 +1,15 @@
 
 data/raw/
 data/processed/
+data/unified/
+data/pseudo_labeled/
 
 models/
+*.pt
+*.pth
+*.ckpt
+
+trained_models/
 *.pt
 *.pth
 *.ckpt
